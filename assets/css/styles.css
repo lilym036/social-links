@@ -16,6 +16,14 @@ body {
     color: hsl(0, 0%, 100%);
  }
 
+ .num-1 {
+    font-size: 2rem;
+ }
+
+ .num-2, p {
+    font-size: 0.80rem;
+ }
+
 img {
     border-radius: 50%;
     width: 30%;
