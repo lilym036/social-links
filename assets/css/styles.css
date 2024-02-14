@@ -5,6 +5,17 @@
     color: hsl(228, 45%, 44%); 
 }
 
+body {
+    background-color: black;
+}
+
+.num-2 {
+    color: hsl(75, 94%, 57%);
+}
+.num-1, p, .btn {
+    color: hsl(0, 0%, 100%);
+ }
+
 img {
     border-radius: 50%;
     width: 30%;
@@ -21,9 +32,17 @@ img {
 .card {
     width: 30%;
     text-align: center;
+    background-color: hsl(0, 0%, 12%);
 }
 
 .btn {
- margin: 5px 12px;
+ margin: 8px 12px;
+ display: flex;
+ justify-content: center;
+ background-color: hsl(0, 0%, 20%);
+}
+
+.btn:hover {
+    background-color: hsl(75, 94%, 57%);
 }
 
