@@ -4,3 +4,26 @@
 .attribution a { 
     color: hsl(228, 45%, 44%); 
 }
+
+img {
+    border-radius: 50%;
+    width: 30%;
+    margin: auto;
+  }
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.card {
+    width: 30%;
+    text-align: center;
+}
+
+.btn {
+ margin: 5px 12px;
+}
+
